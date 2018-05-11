@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  font-family: 'Gugi', cursive;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.tracks {
+  background: white;
+  width: 51%;
+  display: inline-block;
+  margin: 20px;
+  float: center;
+}
+
+.audio-track {
+  width: 80%
+}
+
+#backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
